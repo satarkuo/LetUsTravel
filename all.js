@@ -238,6 +238,7 @@ function formatChartData(){
 function renderChart(data){
     
     const chart = c3.generate({
+        bindto: "#chart",
         data: {
             columns: data,
             type : 'donut',
