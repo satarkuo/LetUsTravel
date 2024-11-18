@@ -50,10 +50,8 @@ table {
 *, *::after, *::before {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    /*    
     -webkit-transition: all .2s;
     transition: all .2s;
-    */
   }
   
   html, body {
@@ -299,6 +297,25 @@ table {
   .search-area p {
     color: #818A91;
   }
+
+    /*-圖表樣式-*/
+    #chart .c3-chart-arcs-title {
+        fill: #4B4B4B;
+        font-size: 14px;
+        font-weight: normal;
+    }
+    #chart .c3-legend-item text {
+        fill: #6E6E6E;
+        font-size: 14px;
+        font-weight: normal;
+    }
+    #chart .c3-chart-arcs path {
+        transition: none !important; /* 禁用過渡效果 */
+    }
+
+    #chart .c3-legend-item text {
+        transition: none !important; /* 禁用圖例文字的過渡效果 */
+    }
   
   @media (max-width: 768px) {
     .search-area {

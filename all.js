@@ -236,6 +236,7 @@ function formatChartData(){
 }
  // 圖表繪製 c3.js donut
 function renderChart(data){
+    
     const chart = c3.generate({
         data: {
             columns: data,
@@ -257,16 +258,6 @@ function renderChart(data){
             }
         }
     });
-    // 修改title文字樣式
-    d3.select('.c3-chart-arcs-title')
-    .style('fill', '#4B4B4B') 
-    .style('font-size', '14px') // 修改文字大小
-    .style('font-weight', 'normal'); // 修改字體加粗
-    // 修改title文字樣式
-    d3.selectAll('.c3-legend-item text')
-    .style('fill', '#6E6E6E') // 修改文字顏色為藍色
-    .style('font-size', '14px') // 修改文字大小
-    .style('font-weight', 'normal'); // 修改字體加粗
 }
 
 
