@@ -1,6 +1,6 @@
 # 旅遊套票平台 (純 JavaScript 開發)
 
-- [線上Demo](https://satarkuo.github.io/JSCourseW7/)
+- [線上Demo](https://satarkuo.github.io/LetUsTravel/)
 
 - 純 JavaScript 開發，無使用任何框架。
 - 本作品採用現成模板實作功能練習，實作以JS邏輯為主，不包含版型切版。
